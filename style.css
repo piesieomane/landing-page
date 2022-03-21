@@ -8,7 +8,7 @@
     background: #1f2937;
     padding-top: 20px;
     padding-left: 200px;
-    padding-right: 20px;
+    padding-right: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F9FAF8;
@@ -55,6 +55,61 @@ button {
     border-radius: 10px;
     border-color: #3882F6;
 }
+img {
+    width: 400px;
+    height: 150px;   
+    margin-left: auto;
+}
 .section-inside {
+    display: flex;
+    align-items: center;    
+}
+.s-header {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section-inside1 {
+    padding: 20px;
+    align-items: center;
+    
+}
+.section-inside-i {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.section-inside-i figure {
+    width: 160px;
+}
+
+
+.section-inside-i figcaption {
+    text-align: center;
+}
+
+
+.section-inside-i img {
+    width: 100%;
+    margin-left: auto;
+    border: 4px solid blue;
+    border-radius: 6px;
+    
+}
+.section-2 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 100px;
+    padding-left: 250px;
+    
+}
+.section-2 p {
     
 }
